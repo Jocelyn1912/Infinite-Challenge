@@ -368,14 +368,7 @@ margin-top: 5%;
   background-position: center top;
   padding-top:10%;
   color:#fff;
-}
-
-.ContinuacioncontenedorSection5{
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulArriba.png);
-  background-size: cover;
-  background-position: center top;
-  height: 150px;
-  margin-top: -45px;
+  padding-bottom:170px;
 }
 
 .parrafoTaller{
@@ -445,10 +438,13 @@ h2.linea:before {
 }
 
 .contenedorSection6{
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulSinOndaso.png);
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulCompleto.png);
   background-size: cover;
   background-position: center top;
+  margin-top: -230px;
+  padding-top: 140px;
   color:#fff;
+  padding-bottom: 400px;
 }
 
 #section_6 .contenedorCadaPremio{
@@ -459,7 +455,7 @@ h2.linea:before {
 }
 
 #section_6 .titulos{
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 #section_6 hr{
@@ -505,12 +501,9 @@ margin-top:1%;
   padding-bottom: 1%;
 }
 
-.comtinuacionContenedor6{
-  border-top: solid 45px #3A4380 ;
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulOndaInferior.png);
-  background-size: cover;
-  background-position: center top;
-  height: 170px;
+.comtinuacionContenedor6 img{
+  width:100%;
+  height:auto;
 }
 
 #section_7 {
@@ -522,7 +515,7 @@ margin-top:1%;
 }
 
 .contenedorPreguntasFrecuentes{
-  margin-top: -30px;
+  margin-top:;
 }
 
 .editRowPreguntasFrecuentes{
