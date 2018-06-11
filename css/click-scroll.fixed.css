@@ -504,9 +504,11 @@ margin-top:1%;
 .comtinuacionContenedor6 img{
   width:100%;
   height:auto;
+  background-color:#2CAEA3;
 }
 
 #section_7 {
+   margin-top: -370px;
   background-color: #3A4380;
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);
   background-size: cover;
