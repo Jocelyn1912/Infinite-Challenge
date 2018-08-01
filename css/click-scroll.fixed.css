@@ -368,7 +368,15 @@ margin-top: 5%;
   background-position: center top;
   padding-top:10%;
   color:#fff;
-  padding-bottom:170px;
+}
+
+.ContinuacioncontenedorSection5{
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulArriba.png);
+  background-size: cover;
+  background-position: center top;
+  height: 150px;
+  margin-top: -45px;
+  background-color: #FEAB13;
 }
 
 .parrafoTaller{
@@ -405,46 +413,42 @@ h2.linea:before {
   z-index: -1;
 }
 
-.contenedorSection5 .formularioDatosTaller{
-  padding: 0 20%;
-  text-align: left;
+.imgLinea{
+    background-color: #FEBF1E;
+    padding: 15px;
 }
 
-
-
-#section_5 .formularioDatosTaller .correoDesafio{
-  color: #4A5493!important;
-  text-decoration: underline!important;
-}
-.alignContent .pregunta{
-  width:180px;
-  text-align:right;
-  padding-top: 5px;
+.contenedorBTNParticipa5, .contenedorBTNParticipa52{
+  margin-top: 30px;
+  padding: 11px;
 }
 
-.alignContent .respuesta{
- padding-left: 5%;
- padding-top: 5px;
+.contenedorBTNParticipa5{
+    background-color: #3A4184;
 }
 
-.alignContent{
-  vertical-align:top;
-  padding-top:0;
+.contenedorBTNParticipa52{
+    background-color: #2CAEA2;
 }
 
-.fila{
-  text-align: left;
-  width:50%;
+.btnParticipaSection5:link, .btnParticipaSection5:visited, .btnParticipaSection5:active, .btnParticipaSection52:link, .btnParticipaSection52:visited, .btnParticipaSection52:active, a {
+    text-decoration:none;
+    color:#fff;
+}
+.btnParticipaSection5{
+font-size: 18px;
+    font-weight: lighter;
+}
+
+.contenedorGalerias{
+padding: 5% 10%;
 }
 
 .contenedorSection6{
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulCompleto.png);
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulSinOndaso.png);
   background-size: cover;
   background-position: center top;
-  margin-top: -230px;
-  padding-top: 140px;
   color:#fff;
-  padding-bottom: 400px;
 }
 
 #section_6 .contenedorCadaPremio{
@@ -455,7 +459,7 @@ h2.linea:before {
 }
 
 #section_6 .titulos{
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 #section_6 hr{
@@ -501,14 +505,19 @@ margin-top:1%;
   padding-bottom: 1%;
 }
 
+.comtinuacionContenedor6{
+  border-top: solid 45px #3A4380 ;
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulOndaInferior.png);
+  background-size: cover;
+  background-position: center top;
+  height: 170px;
+}
+
 .comtinuacionContenedor6 img{
   width:100%;
-  height:auto;
-  background-color:#2CAEA3;
 }
 
 #section_7 {
-   margin-top: -370px;
   background-color: #3A4380;
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);
   background-size: cover;
@@ -517,7 +526,7 @@ margin-top:1%;
 }
 
 .contenedorPreguntasFrecuentes{
-  margin-top:;
+  margin-top: -30px;
 }
 
 .editRowPreguntasFrecuentes{
@@ -546,6 +555,11 @@ h2.linea2:before {
   bottom: 0;
   width: 90%;
   z-index: -1;
+}
+
+.imgLinea{
+    background-color: #FEBF1E;
+    padding: 15px;
 }
 
 .tituloPreguntasFrecuentes{
@@ -658,8 +672,11 @@ color:#fff;
     margin: 5% 0;
   }
   .contenedorTaller{
-  padding: 0px ;
-}
+    padding: 0px ;
+  }
+ .linkAParticipando, .descargarBases, .btnPremiosParticipar, .btnProgramaIdeacionRojo, .btnTallerIdeacion, .btnParticipa{
+    font-size:15px;
+ }
 }
 
 
@@ -818,4 +835,59 @@ body {
 
 .disponibilidadBases {
   font-size: 13px;
+}
+
+.btnTallerIdeacion{
+  background-color:#FAAE34;
+margin-bottom:50px!important;
+}
+
+.btnTallerIdeacion:hover {
+  color: #FAAE34;
+  background-color:#fff;
+  border: solid 2px #FAAE34;
+}
+
+.btnProgramaIdeacionRojo{
+  background-color:#BB2929;
+}
+
+.btnProgramaIdeacionRojo:hover {
+  color: #BB2929;
+  background-color:#fff;
+  border: solid 2px #BB2929;
+}
+
+.linkAParticipando, .descargarBases, .btnPremiosParticipar, .btnProgramaIdeacionRojo, .btnTallerIdeacion, .btnParticipa{
+font-weight: lighter!important;
+}
+
+#desafioCerrado{
+  background-color:#39B1A5;
+  margin:5% 0 ;
+}
+
+#desafioCerrado .tituloSeccion1{
+  background-color:#D33434;
+  margin-top:2%!important;
+  border-radius:10px;
+
+}
+
+#desafioCerrado .parrafoDesafioCerrado{
+  font-size:25px;
+  margin: 2% 0;
+}
+
+.desafioCerradoNota{
+  font-size:15px!important;
+  padding: 15px 0;
+}
+
+.numeroEtapaInactiva{
+background-color:#56BEB5!important;
+}
+
+.boxcontent {
+    padding: 0px 0px!important;
 }
