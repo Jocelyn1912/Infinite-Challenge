@@ -95,7 +95,7 @@ margin-top: 5%;
 .btnParticipa{
   font-size:20px;
   background-color:#2CAEA3;
-  padding:12px 37px;
+  padding:10px;
   font-family: 'Abel', sans-serif;
 }
 
@@ -107,6 +107,7 @@ margin-top: 5%;
   color: #2CAEA3;
   background-color:#fff;
   border: solid 2px #2CAEA3;
+  cursor: pointer;
 }
 
 .parrafoSeccion {
@@ -120,6 +121,10 @@ margin-top: 5%;
   font-family: 'Abel', sans-serif;
   padding: 0;
   text-align: center;
+}
+
+.contenedorFinalistas{
+  padding: 2% 0;
 }
 
 .subSection12{
@@ -839,7 +844,7 @@ body {
 
 .btnTallerIdeacion{
   background-color:#FAAE34;
-margin-bottom:50px!important;
+margin-bottom:10px!important;
 }
 
 .btnTallerIdeacion:hover {
@@ -865,6 +870,7 @@ font-weight: lighter!important;
 #desafioCerrado{
   background-color:#39B1A5;
   margin:5% 0 ;
+  padding: 5% 0;
 }
 
 #desafioCerrado .tituloSeccion1{
