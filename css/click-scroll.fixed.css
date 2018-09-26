@@ -55,7 +55,7 @@ ul.menu li a:hover {
 
 ul.menu li a:focus { outline: none; }
 
-/************************************************************************************************
+************************************************************************************************
 Estilos home
 ************************************************************************************************/
 #section_1, #section_2, #section_3, #section_4, #section_5, #section_6, #section_7 {
@@ -97,6 +97,9 @@ margin-top: 5%;
   background-color:#2CAEA3;
   padding:10px;
   font-family: 'Abel', sans-serif;
+  height: 100px;
+  vertical-align: middle;
+  color: #000;
 }
 
 .contenedorBTNParticipa{
@@ -123,8 +126,10 @@ margin-top: 5%;
   text-align: center;
 }
 
-.contenedorFinalistas{
-  padding: 2% 0;
+
+.autorIdea{
+  font-size: 20px;
+
 }
 
 .subSection12{
@@ -446,8 +451,21 @@ font-size: 18px;
 }
 
 .contenedorGalerias{
-padding: 5% 10%;
+padding: 5%;
 }
+
+
+/*
+.imagenPortada:hover{
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+  transition:0.2s ease;
+}
+
+.imagenPortada{
+  border-radius: 10px;
+}
+*/
 
 .contenedorSection6{
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulSinOndaso.png);
@@ -800,6 +818,9 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+.btnParticipa {
+    height: 60px;
+}
   .lefth, .rigth {
     font-size:30px;
   }
@@ -824,6 +845,13 @@ body {
   .slider .caption {
     padding: 5px 60px 5px 60px;
   }
+.contenedorFinalistas{
+  display: inline-block;
+  width: 100%;
+}
+.imgDemo{
+  width: 100%;
+}
 }
 
 
@@ -844,7 +872,7 @@ body {
 
 .btnTallerIdeacion{
   background-color:#FAAE34;
-margin-bottom:10px!important;
+
 }
 
 .btnTallerIdeacion:hover {
@@ -867,10 +895,11 @@ margin-bottom:10px!important;
 font-weight: lighter!important;
 }
 
+
 #desafioCerrado{
   background-color:#39B1A5;
   margin:5% 0 ;
-  padding: 5% 0;
+  padding: 3% 2%;
 }
 
 #desafioCerrado .tituloSeccion1{
@@ -896,4 +925,33 @@ background-color:#56BEB5!important;
 
 .boxcontent {
     padding: 0px 0px!important;
+}
+
+.contenedorFinalistas{
+  display: inline-block!important;
+  width: 45%;
+}
+
+.nombreIdea{
+  font-size: 20px;
+  margin-top:3%;
+}
+
+.imgDemo{
+  width: 47%;
+  vertical-align: top;
+}
+
+.subSection12 .contenedorRayos .textoMayusculas{
+  color:#8D8D8D !important;
+}
+
+.titulosGanadore{
+  font-size: 25px;
+  margin-top: 7%;
+}
+
+.imgPrimerLugar, .imgSegundoLugar, .imgTercerLugar{
+  height: 300px;
+  width: auto;
 }
