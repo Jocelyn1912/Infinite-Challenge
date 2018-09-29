@@ -55,7 +55,7 @@ ul.menu li a:hover {
 
 ul.menu li a:focus { outline: none; }
 
-************************************************************************************************
+/************************************************************************************************
 Estilos home
 ************************************************************************************************/
 #section_1, #section_2, #section_3, #section_4, #section_5, #section_6, #section_7 {
@@ -144,6 +144,7 @@ margin-top: 5%;
 
 .subTituloSeccion12 {
   color: #E04646;
+
 }
 
 .contenedorParrafoSeccion1 hr {
@@ -850,7 +851,7 @@ body {
   width: 100%;
 }
 .imgDemo{
-  width: 100%;
+  width: 110%;
 }
 }
 
@@ -897,15 +898,15 @@ font-weight: lighter!important;
 
 
 #desafioCerrado{
-  background-color:#39B1A5;
+  background-color:#3F4F8D;
   margin:5% 0 ;
   padding: 3% 2%;
 }
 
 #desafioCerrado .tituloSeccion1{
-  background-color:#D33434;
-  margin-top:2%!important;
+  color: #fff !important;
   border-radius:10px;
+   font-family: 'Ropa Sans', sans-serif!important;
 
 }
 
@@ -913,6 +914,13 @@ font-weight: lighter!important;
   font-size:25px;
   margin: 2% 0;
 }
+#desafioCerrado .titulos{
+  font-size:45px!important;
+  color: #EAAF2B;
+  font-weight: bold;
+    font-family: 'Ropa Sans', sans-serif!important;
+}
+
 
 .desafioCerradoNota{
   font-size:15px!important;
@@ -928,18 +936,19 @@ background-color:#56BEB5!important;
 }
 
 .contenedorFinalistas{
-  display: inline-block!important;
-  width: 45%;
+  padding:1% 7%;
 }
 
 .nombreIdea{
   font-size: 20px;
-  margin-top:3%;
+   margin: 3% 0 0 0 !important;
+  font-family: 'Abel', sans-serif;
 }
 
 .imgDemo{
-  width: 47%;
-  vertical-align: top;
+  width: 100%;
+  border-radius: 5px 5px;
+  margin-top: 5%;
 }
 
 .subSection12 .contenedorRayos .textoMayusculas{
@@ -954,4 +963,19 @@ background-color:#56BEB5!important;
 .imgPrimerLugar, .imgSegundoLugar, .imgTercerLugar{
   height: 300px;
   width: auto;
+}
+
+.contenedorFinalistas .autor{
+    color: #E5A34B;
+    font-family: 'Abel', sans-serif;
+}
+
+.iconitoGanadores{
+  width: 25px;
+  margin-left:-35px;
+}
+
+.lugarGanadores{
+  vertical-align: top;
+  font-size:15px!important;
 }
